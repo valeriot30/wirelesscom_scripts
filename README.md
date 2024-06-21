@@ -3,7 +3,7 @@
 La repository offre una serie di script in python che ho utilizzando durante lo svolgimento degli esercizi sulle reti Wireless
 In particolare:
 ## Link Budget
-Lo script permette di risolvere esercizi di Link Budget, (supporta attualmente solamente il modello in spazio libero <b>free-space</b>). Tramite input si possono inserire tutti i parametri necessari per il calcolo delle perdite di percorso e ottenere così distanza massina tra trasmettitore e ricevitore e capacità di canale.
+Lo script permette di risolvere esercizi di Link Budget, (supporta attualmente solamente il modello in spazio libero <b>free-space</b>). Tramite input si possono inserire tutti i parametri necessari per il calcolo delle perdite di percorso e ottenere così distanza massima tra trasmettitore (tx) e ricevitore (rx) e capacità di canale tenendo conto di eventuali attenuazioni / guadagni.
 
 ## ErlangB
 L'erlangB è una formula applicabile ai sistemi di tipo LCC (Lost Call Cleared). Fissata una probabilità di blocco <b>Pb</b> e un numero di canali **N** è possibile ottenere l'utilizzazione in erlangs ricorsivamente. Utilizzando la formula:
