@@ -7,7 +7,7 @@ Lo script permette di risolvere esercizi di Link Budget, (supporta attualmente s
 
 ## ErlangB
 L'erlangB è una formula applicabile ai sistemi di tipo LCC (Lost Call Cleared). Fissata una probabilità di blocco <b>Pb</b> e un numero di canali **N** è possibile ottenere l'utilizzazione in erlangs ricorsivamente. Utilizzando la formula:
-![{\displaystyle E_{B}(m,A)={A^{m} \over m!}\left({\sum _{i=0}^{m}{A^{i} \over i!}}\right)^{-1}.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/8bfc2007e5e115dd255d299b117f598f8761b20f)
+![{\displaystyle P_{B}(N,A)={A^{N} \over N!}\left({\sum _{i=0}^{N}{A^{i} \over i!}}\right)^{-1}.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/8bfc2007e5e115dd255d299b117f598f8761b20f)
 
 ## ErlangC
 WIP
